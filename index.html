@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project klik button acak</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="video-background">
+        <video
+          autoplay
+          loop
+          muted
+          play-inline
+          class="background-clip"
+          id="background-video"
+          src="assets/video/background-video.mp4"
+        ></video>
+      </div>
+      <h1>Apakah anda ingin melihat trik sulap?</h1>
+      <div class="btn-option">
+        <div>
+          <button type="submit" class="yes" name="yes">
+            <h2>YA</h2>
+          </button>
+        </div>
+        <div>
+          <button type="submit" class="no" name="no">
+            <h2>TIDAK</h2>
+          </button>
+        </div>
+      </div>
+      <footer>
+        <span>Copyright © 2024 Rafid Hilmi. All rights reserved.</span>
+      </footer>
+    </div>
+    <div class="modal">
+      <div class="modal-content"></div>
+    </div>
+    <div class="cursor"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
