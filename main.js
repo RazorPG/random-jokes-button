@@ -30,7 +30,7 @@ btnOptionValue.forEach((btn) => {
   btn.addEventListener("click", function () {
     if (btn.classList.contains("yes") && isStop === false) {
       // ubah display background baru menjadi ada
-      let sound = new Audio("assets/a   udio/dame yo dame dame-(480p).wav");
+      let sound = new Audio("assets/audio/dame yo dame dame-(480p).wav");
       sound.play();
       // tombol tidak di klik
     } else if (btn.classList.contains("no")) {
